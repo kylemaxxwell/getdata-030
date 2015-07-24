@@ -34,6 +34,6 @@ Download file analysis.R to your working directory and using the source() comman
 After source, this should complile the script and produce some data object in the global environment and one tidy data result text file "result.txt" into UCI HAR Dataset folder in your working directory.
 
 ## Notes ##
-> See CodeBook.md for more details of each data object and variables.
+> See [CodeBook.md](https://github.com/kylemaxxwell/getdata-030/blob/master/CodeBook.md) for more details of each data object and variables.
 
-> See run_analysis.R for more analysis details.
+> See [run_analysis.R](https://github.com/kylemaxxwell/getdata-030/blob/master/run_analysis.R) for more analysis details.
