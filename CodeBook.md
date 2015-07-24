@@ -148,7 +148,7 @@ The goal is to prepare tidy data that can be used for later analysis. The R scri
 	"3rd Qu.:23.0  "	NA	"3rd Qu.:-0.2174  "	"3rd Qu.:-0.06341  "	"3rd Qu.:-0.3183  "	"3rd Qu.:-0.1966  "	"3rd Qu.:-0.07913  "	"3rd Qu.:-0.2655  "	"3rd Qu.:-0.2820  "	"3rd Qu.:-0.1963  "	"3rd Qu.:-0.4697  "	"3rd Qu.:-0.2475  "	"3rd Qu.:-0.1685  "	"3rd Qu.:-0.543787  "	"3rd Qu.:-0.1622  "	"3rd Qu.:-0.3654  "	"3rd Qu.:-0.1872  "	"3rd Qu.:-0.2668  "	"3rd Qu.:-0.5831  "	"3rd Qu.:-0.6081  "	"3rd Qu.:-0.4087  "	"3rd Qu.:-0.4277  "	"3rd Qu.:-0.3387  "	"3rd Qu.:-0.4458  "	"3rd Qu.:-0.2635  "	"3rd Qu.:-0.4813  "	"3rd Qu.:-0.4154  "	"3rd Qu.:-0.3916  "	"3rd Qu.:0.2800  "	"3rd Qu.:-0.014936  "	"3rd Qu.:-0.10443  "	"3rd Qu.:-0.1984  "	"3rd Qu.:-0.03077  "	"3rd Qu.:-0.2306  "	"3rd Qu.:0.08330  "	"3rd Qu.: 0.0134008  "	"3rd Qu.: 0.001958  "	"3rd Qu.:-0.2233  "	"3rd Qu.:-0.1483  "	"3rd Qu.:-0.51212  "	"3rd Qu.:-0.2456  "	"3rd Qu.:-0.2173  "	"3rd Qu.:-0.0919  "	"3rd Qu.:-0.2090  "	"3rd Qu.:-0.01676  "	"3rd Qu.:-0.06113  "	"3rd Qu.: 0.10177  "	"3rd Qu.:-0.4414  "	"3rd Qu.:-0.4196  "	"3rd Qu.:-0.3106  "	"3rd Qu.:-0.09110  "	"3rd Qu.:-0.03842  "	"3rd Qu.:-0.048985  "	"3rd Qu.:-0.4629  "	"3rd Qu.:-0.5861  "	"3rd Qu.:-0.4741  "	"3rd Qu.:-0.51186  "	"3rd Qu.:-0.5767  "	"3rd Qu.:-0.2159  "	"3rd Qu.:-0.3602  "	"3rd Qu.: 0.9425  "	"3rd Qu.: 0.08773  "	"3rd Qu.: 0.14946  "	"3rd Qu.:-0.9509  "	"3rd Qu.:-0.9370  "	"3rd Qu.:-0.9180  "	"3rd Qu.:-0.0919  "	"3rd Qu.:-0.2090  "
 	"Max.   :30.0  "	NA	"Max.   : 0.5370  "	"Max.   : 0.52419  "	"Max.   : 0.2807  "	"Max.   : 0.6585  "	"Max.   : 0.56019  "	"Max.   : 0.6871  "	"Max.   : 0.4743  "	"Max.   : 0.2767  "	"Max.   : 0.1578  "	"Max.   : 0.4768  "	"Max.   : 0.3498  "	"Max.   :-0.006236  "	"Max.   : 0.5866  "	"Max.   : 0.1787  "	"Max.   : 0.5384  "	"Max.   : 0.3163  "	"Max.   : 0.1466  "	"Max.   : 0.2878  "	"Max.   : 0.2040  "	"Max.   : 0.2367  "	"Max.   : 0.4750  "	"Max.   : 0.3288  "	"Max.   : 0.4924  "	"Max.   : 0.1966  "	"Max.   : 0.6462  "	"Max.   : 0.5225  "	"Max.   :0.3015  "	"Max.   :-0.001308  "	"Max.   :-0.07538  "	"Max.   : 0.6269  "	"Max.   : 0.61694  "	"Max.   : 0.6090  "	"Max.   :0.13019  "	"Max.   : 0.0568186  "	"Max.   : 0.038053  "	"Max.   : 0.5443  "	"Max.   : 0.3553  "	"Max.   : 0.03102  "	"Max.   : 0.4345  "	"Max.   : 0.4506  "	"Max.   : 0.6446  "	"Max.   : 0.4284  "	"Max.   : 0.19270  "	"Max.   : 0.02747  "	"Max.   : 0.17910  "	"Max.   : 0.2677  "	"Max.   : 0.4765  "	"Max.   : 0.5649  "	"Max.   :-0.02209  "	"Max.   :-0.01320  "	"Max.   :-0.006941  "	"Max.   : 0.1791  "	"Max.   : 0.2959  "	"Max.   : 0.1932  "	"Max.   : 0.08758  "	"Max.   : 0.2502  "	"Max.   : 0.4180  "	"Max.   : 0.3000  "	"Max.   : 0.9745  "	"Max.   : 0.95659  "	"Max.   : 0.95787  "	"Max.   :-0.8296  "	"Max.   :-0.6436  "	"Max.   :-0.6102  "	"Max.   : 0.6446  "	"Max.   : 0.4284  "
 
-Note that object dxmk is keep the original variable in feather for this summary, which keeping the table above more easy to observe.
+Note that object dxmk is keep the original variable in feature for this summary, which keeping the table above more easy to observe.
 
 #### Variable: subject ####
 > unique(dxm$subject)
@@ -172,13 +172,13 @@ According to feature_info.txt file, appropriate label to descriptive list below:
 	Gyro or Gyro.		->	Gyroscope.
 	Jerk or Jerk.		->	Jerk.
 	Mag or Mag.			->	Magnitude.
-	mean				-> mean.
-	std					-> std.
+	mean				->	mean.
+	std					->	std.
 
 Note that:
 
-- mean(): Mean value
-- std(): Standard deviation
+- mean():	Mean value
+- std():		Standard deviation
 
 ## Notes ##
 1. Each variable forms a column.
